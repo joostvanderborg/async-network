@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.tvos.frameworks        = 'CFNetwork', 'Security'
   s.tvos.deployment_target = '9.1'
-  s.dependency 'CocoaAsyncSocket'
+  s.dependency 'CocoaAsyncSocket', :git => 'https://github.com/robbiehanson/CocoaAsyncSocket.git'
 end
